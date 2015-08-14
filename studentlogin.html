@@ -7,11 +7,19 @@
 		<style>
 
 		.body{margin: 0; padding: 0; text-align: center;}
-		.paragraph{width: auto; height: auto; position: absolute; text-align: center;  background-color: #FF0000; margin: 0 auto;}
+		.paragraph{width: auto; height: auto; position: absolute; text-align: center;  background-color: #FF0000; margin: 0 auto; padding-top: 3%; padding-bottom: 0; border-radius: 10px; padding: 2%;}
 		.logIn{width: auto; height: auto; position: relative; float: center;  text-align: right; margin: 0 auto; background-color: #B0B0B0}
-		.sub{width: auto; height: auto; position: relative; text-align: center;}
-		.login{ display:inline-block; }
-		.forget{ display:inline-block;}
+		.sub{width: auto; height: auto; position: relative; text-align: center; background-color: #000000}
+		.log{ display:inline-block; float: left; border-radius: 16px; }
+		.forget{ display:inline-block; float: left;text-align: left; width: 80%; background-color: }
+
+		.inputForm { -moz-border-radius:10px; -webkit-border-radius: 10px; -khtml-border-radius: 10px; border-radius: 10px; 
+			behavior:url("border-radius.htc"); padding-left: 5%; padding-top: 1%; padding-bottom: 1%}
+
+#RightColumn
+{
+    background-color:White;
+}
 
 		</style>
 
@@ -21,20 +29,16 @@
 
 		<div class="paragraph">
 
-			<div class="logIn">
+			<div class="login">
 
-				<label for="email"> Email </label> 
-				<input type="text" name="email"><br>
-				<label for="password"> Password </label>
-				<input type="password" name="password">
-			
+			<input type="text" class="inputForm" name="name" placeholder="Email" size="35"/><br><br>
+			<input type="password" class="inputForm" name="password" placeholder="Password" size="35" /><br><br>
+
 			</div>
 
-			<div class="sub" align="center">
-
-				<button class="login" type="submit" name="login" >Log in</button>
-				<button class="forget" type="submit" name="forget">Zaboravili ste password?</button>
-
+			<div class="sub">
+				<button id="forget" type="submit" >Zaboravili ste sifru?</button>
+				<button id="log" type="submit">Log in</button>
 			</div>
 
 		</div>

@@ -4,54 +4,32 @@
 
 		<title>StudentLogIn</title>
 
-		<style>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
 
-		body{margin: 0 auto; background-color: #888888; padding-top: 10%;  padding-left: 32%; padding-bottom: 10%; position: absolute;}
-		.big{width: 100%; height: auto;background-color: #E0E0E0; text-align: center; float: center; padding: 10%; margin: 10%;}
-		.login{width: auto; height: auto; background-color: #FFFFFF; padding: 5%; border-radius: 2%; text-align: left; padding-bottom: 12%}
-		.sub{width: 100%; height: auto; float: right; text-align: right; margin-bottom: 15%}
-		.input{width: 100%; height: 20px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; }
 
-		.btn{background-color: #D92528; padding: 3%; margin-bottom: 10%}
+	<style>
 
-		</style>
+	</style>
 
 	</head>
 
 	<body>
 
-	<div class="big">
-
-		<img src="logo.jpg" alt="logo">
-
-		<div class="login"> 
-
-			<div>
-
-				<img src="username.png" alt="username"> <br>
-
-				<input type="text" name="username" class="input" size="35"> <br>
-
-				<img src="password.png" alt="password"> <br>
-
-				<input type="password" name="password" class="input" size="35"> <br> <br>
-
-
-				<div class="sub">
-
-					<button type="submit" class="btn" value="forget">Zaboravili ste sifru</button>
-
-					<button type="submit" class="btn" value="login">Log in</button>
-				
-				</div>
-
-			</div>
-
-
+	<div class="login-big">
+		<div id="login-logo">
+			<img src="img/logo.png" alt="logo">
 		</div>
-
-
-	 </div>
+		<div class="login">
+			<img src="img/username.png" alt="username" class="input-slika-login"> <br>
+			<input type="text" name="username" class="input-login" size="35"> <br>
+			<img src="img/password.png" alt="password" class="input-slika-login"> <br>
+			<input type="password" name="password" class="input-login" size="35"> <br> <br>
+			<div class="sub-login">
+				<button type="submit" value="forget">Forgot password</button>
+				<button type="submit" value="login">Log in</button>
+			</div>
+		</div>
+	</div>
 
 	</body>
 

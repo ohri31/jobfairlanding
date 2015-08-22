@@ -384,4 +384,46 @@ textarea {
     div img {
         max-width: 100%;
     }
+
+    div.logo a {
+            text-decoration:none;
+            color: white;
+            font-family: "Arial Narrow";
+            font: "Narrow";
+            display:inline-block;
+        }
+
+        #footer {
+            float:left;
+            display: inline-block;
+            width: 100%;
+            padding: 50px;
+            background-color: #1E1B1B; 
+            list-style-type: none;
+            }     
+
+        .icons ul li{
+            display: inline-block;
+            margin:auto;
+            height: 100px;
+            width: 80px;
+            text-align:center;
+        }
+        .icons {
+            width: 31%;
+            margin: auto;
+        }
+
+        .linkovi-footer{
+            margin-right: 4%;
+        }
+
+        .pratite{
+            color: white;
+            margin-left: 46%;
+        }
+
+        #prvi-link{
+            margin-left: 23%;
+        }
 /*dosta vise tarika :P/*

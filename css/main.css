@@ -344,3 +344,46 @@ textarea {
             color: white;
         }
 /*End of Nermin CSS Login Student*/
+
+/*ooestecu css - Tarik*/
+
+    .meni {
+        height: 5vmax;
+        max-width: 100%;
+}
+
+    .header {
+        background-color: #C91619;
+        padding-top: 3vmin;
+        padding-left: 5vmin;
+        padding-bottom: 2vmin;
+        height: 7vmin;
+        font-size: 4vmin;
+        color: white;
+        font-family: serif;
+        font-weight: bold;
+        width: 97%;
+    }
+
+    #text {
+        padding: 1vmin 6vmin 1vmin 6vmin;
+        margin: 2vmin 0vmin 2vmin 0vmin;
+        font-family: Trebuchet MS;
+        height: 30vmin;
+        width: 92%;
+        font-size: 2vmin;
+    }   
+
+    #slika {
+        height: 200vmin;
+        padding-top: 5vmin;
+        width: 100%;
+    }
+
+    div img {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 100%;
+    }
+/*dosta vise tarika :P/*

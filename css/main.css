@@ -513,3 +513,77 @@ textarea {
         }
 
 /*Bice jos izmjena*/
+
+
+/*Menu*/
+#menu {
+    position: fixed;
+    top: 0;
+    left: 0; 
+    right: 0;
+    padding-right: 30px; 
+    height: 60px;
+    z-index: 1000;
+    background: #ffffff;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #d92528;
+}
+
+#menu .item {
+    float: right;
+    line-height: 60px; 
+    font-size: 14px;
+    text-transform: uppercase; 
+    color: #d92528;
+    text-decoration: none;
+    margin: 0 25px; 
+    outline: none; 
+    font-family: 'Trebuchet MS';
+    font-weight: 500;
+}
+
+#menu .item:hover {
+    font-weight: 800;
+    border-bottom: 6px solid #d92528;
+    padding-bottom: 0;
+    font-family: 'Trebuchet MS';
+}
+
+#menu .logo {
+    float: left;
+    padding-left: 30px;
+    height: 60px;
+    line-height: 60px;
+}
+.top{
+    background-color: #696969;
+    border-radius: 17px;
+    bottom: 2em;
+    display: none;
+    opacity:0.7;
+    padding: 1.5em;
+    position: fixed;
+    right: 1.5em;
+    text-decoration: none;
+    width: 5px;
+    height: 5px;
+}
+
+.top:hover {
+    opacity: 1;
+    transition: 1s;
+    border: 3px solid #696969;
+    background-color: #505050;
+    border-radius: 5px;
+    width: 5px;
+    height: 5px;
+}
+
+.top img {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    right: 15px;
+    bottom: 15px;
+}
+/*menu the end*/

@@ -1,0 +1,19 @@
+.btn.btn-default {
+	border: 1px solid #C91619;
+    color: #C91619;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.row .col-3{
+    vertical-align: middle;
+    line-height: 150px;
+}
+
+.row .col-6{
+	vertical-align: middle;
+    line-height: 150px;
+    padding-top: 2%;
+    height: 100px;
+}
+

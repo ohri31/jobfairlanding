@@ -586,4 +586,51 @@ textarea {
     right: 15px;
     bottom: 15px;
 }
+
+
 /*menu the end*/
+
+/* Prikaz kompanija*/
+.company
+{
+    margin: auto;
+
+}
+#info_company
+{
+            width: 660px;
+            height: 330px;
+
+            background-color: #ffffff;
+            margin-left: 30px;
+            margin-top: 50px;
+}
+
+
+#about_company
+{
+           
+            width: 660px;
+            height: 700px;
+            background-color: #ffffff;
+            margin-left: 730px;
+            margin-top: -520px;
+            
+}
+#contact_company
+{
+            width: 660px;
+            height: 160px;
+            background-color: #ffffff;
+            margin-left: 30px;
+            margin-top: 30px;
+}
+#advert_company
+{
+            width: 660px;
+            height: 165px;
+            background-color: #ffffff;
+            margin-top: 20px;
+            margin-left: 730px;
+            
+}

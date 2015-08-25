@@ -37,13 +37,13 @@
         
 
         <div class="screen">
-            <?php include 'menu.html'; ?>
+            <?php include 'partials/menu.html'; ?>
 
-            <?php include 'baner.html' ?>
+            <?php include 'partials/baner.html' ?>
             <div><br><br><br><br></div>
-            <?php include 'link_cv_partner.html' ?>
+            <?php include 'partials/link_cv_partner.html' ?>
 
-            <?php include 'footer.html'; ?>
+            <?php include 'partials/footer.html'; ?>
         </div>
 
         <script src="bootstrap/js/bootstrap.min.js"></script>

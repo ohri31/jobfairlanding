@@ -610,7 +610,8 @@ div.logo a {
 }
 
 .button-oprojektu:hover{
-    font-weight: 200;
+    font-weight: 400;
+    padding-right: 23px;
 }
 
 @media(max-width : 980px )
@@ -674,4 +675,14 @@ div.logo a {
     text-decoration: none;
     color: #D92528;
     font-weight: 800;
+}
+
+
+
+#first-link:hover img{
+    background-image: url('../img/cv-partner/cv2.png');
+}
+
+#second-link:hover img{
+    background-image: url('../img/cv-partner/partner2.png');
 }

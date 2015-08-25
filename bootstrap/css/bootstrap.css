@@ -1611,8 +1611,7 @@ pre code {
 .container-fluid {
   padding-right: 15px;
   padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: auto;
 }
 .row {
   margin-right: -15px;
@@ -4407,9 +4406,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
   .navbar-nav > li:hover 
     {
-         background-color:black;
-         color:white;
-         border-radius: 17px;
+      /*ovdje ide majrin css*/
+    color: #d92528;
+    font-weight: 800; 
+    border-bottom: 6px solid #d92528;
+    font-family: 'Trebuchet MS';
     }
 
 @media (min-width: 678px) {
@@ -4558,7 +4559,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-/*  background-color: #f8f8f8;*/
+  background-color: #f8f8f8;
   border-color: #e7e7e7;
 }
 .navbar-default .navbar-brand {
@@ -4577,7 +4578,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: white;
+  color: #d92528;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,

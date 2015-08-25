@@ -42,7 +42,7 @@
 										+387 62 225 883</p>
 				</div>
 				<div id="bord_names">
-					<p class="name">Lejla Nukic</p>
+					<p class="name">Lejla Nukić</p>
 					<p class="pozicija">Koordinator tima za odnose sa kompanijama</p>
 					<p class="broj_mail">lejla.nukic@jobfair.ba<br>
 										+387 62 225 883</p>
@@ -54,13 +54,13 @@
 										+387 61 760 892</p>
 				</div>
 				<div id="bord_names">
-					<p class="name">Berina Cocalic</p>
+					<p class="name">Berina Cocalić</p>
 					<p class="pozicija">Koordinator tima za dizajn i publikacije</p>
 					<p class="broj_mail">berina.cocalic@jobfair.ba<br>
 										+387 62 225 883</p>
 				</div>
 				<div id="bord_names">
-					<p class="name">Ilma Cengic</p>
+					<p class="name">Ilma Čengić</p>
 					<p class="pozicija">Koordinator tima za odnose s javnošću</p>
 					<p class="broj_mail">ilma.cengic@jobfair.ba<br>
 										+387 62 225 883</p>

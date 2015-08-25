@@ -327,6 +327,7 @@ div.logo a {
 #footer {
     position: absolute;
     bottom: 0;
+    padding-top: 93px;
     margin: auto;
     max-width: 1200px;
     width: 100%;
@@ -691,3 +692,11 @@ div.logo a {
 #second-link:hover img{
     background-image: url('../img/cv-partner/partner2.png');
 }
+
+/*googlemaps*/
+  #map {
+    width: 1200px;
+    height: 500px;
+    bottom: 0;
+  }
+/*end of googlemaps*/

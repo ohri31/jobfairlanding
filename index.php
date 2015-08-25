@@ -39,13 +39,16 @@
         <div class="screen">
             <?php include 'partials/menu.html'; ?>
 
-            <?php include 'partials/baner.html' ?>
+            <?php include 'partials/baner.html'; ?>
             <div><br><br><br><br></div>
-            <?php include 'partials/link_cv_partner.html' ?>
-
+            <?php include 'partials/link_cv_partner.html'; ?>
+            <div><br><br></div>
+            <?php include 'partials/googlemaps.html'; ?>
             <?php include 'partials/footer.html'; ?>
         </div>
 
+        <script src="js/main.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?signed_in=true&callback=initMap"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
         <script src="bootstrap/js/bootstrap.js"></script>
     </body>

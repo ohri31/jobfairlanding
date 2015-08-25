@@ -186,7 +186,7 @@ textarea {
     z-index:15;
     left:50%;
     margin:0px 0 0 -600px;
-    padding-bottom: 100px;
+    padding-bottom: 380px;
 }
 
 /*   NERMIN LOGO */
@@ -606,7 +606,11 @@ div.logo a {
     color: #D92528;
     padding:5px 25px;
     margin-top:30px;
-    font-weight: 100;
+    font-weight: 200;
+}
+
+.button-oprojektu:hover{
+    font-weight: 200;
 }
 
 @media(max-width : 980px )
@@ -644,3 +648,30 @@ div.logo a {
 }
 
 /*end of memi baner*/
+
+.cv_partner{
+    width: 660px;
+    margin: auto;
+}
+
+.cv_partner ul li{
+    display: inline-block;
+    text-align: center;
+    margin-right: 40%;
+}
+
+.cv_partner ul li:last-child{
+    margin-right: 0%;
+}
+
+.cv_partner ul li a{
+    text-decoration: none;
+    color: #D92528;
+    font-weight: 400;
+}
+
+.cv_partner ul li a:hover{
+    text-decoration: none;
+    color: #D92528;
+    font-weight: 800;
+}

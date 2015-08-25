@@ -40,8 +40,8 @@
             <?php include 'menu.html'; ?>
 
             <?php include 'baner.html' ?>
-
-            <?php //include landing ?>
+            <div><br><br><br><br></div>
+            <?php include 'link_cv_partner.html' ?>
 
             <?php include 'footer.html'; ?>
         </div>

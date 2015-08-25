@@ -236,6 +236,9 @@ textarea {
             border-style: solid;
             border-width: 1px;
             margin-bottom: 1px;
+            padding-left: 5px;
+            font-size: 25px;
+            font-family: Trebuchet MS;
         }
 
         .input-login-p{
@@ -247,6 +250,8 @@ textarea {
             border-style: solid;
             border-width: 1px;
             margin-bottom: -10px;
+            padding-left: 5px;
+            font-size: 25px;
         }
 
         .input-slika-login{

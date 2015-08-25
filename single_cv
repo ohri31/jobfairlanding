@@ -1,0 +1,111 @@
+body{
+	background-color: #E0E0E0;
+}
+.prvi{
+	position: relative;
+	margin-right:8px;
+	background: white;
+	float:right;
+	width: 720px;
+	height: 1000px;
+	left:7px;
+}
+.prvi-sadrzaj{
+	position: relative;
+	width:690px;
+	left:15px;
+	top:15px;
+}
+.naslov-crveni{
+	color: red;
+	font-weight: bold;
+	padding-left:3px;
+}
+.info-pojedinacne{
+	position: relative;
+	left: 35px;
+}
+.tabela-fiksno{
+	position: relative;
+	width:210px;
+	display:inline-block;
+	color: #888888;
+}
+.drugi{
+	position: relative;
+	background: white;
+	width: 350px;
+	height: 120px;
+}
+.slika{
+	position: relative;
+	width:90px;
+	height:90px;
+	top: 15px;
+	left: 15px;
+	border-radius: 50%;
+}
+.slika-icon{
+	position: relative;
+	bottom:13px;
+	width: 20px;
+	height: 20px;
+}
+.fit{
+	border-radius: 50%;
+	position: relative;
+	max-width: 90px;
+	max-height: 90px;
+}
+.fit-icon{
+	position: relative;
+	max-width: 20px;
+	max-height: 20px;
+}
+.informacije{
+	position: relative;
+	top:1px;
+	width:230px;
+	float:right;
+}
+.treci{
+	position: relative;
+	background: white;
+	width: 350px;
+	height:200px;
+}
+.treci-sadrzaj{
+	position: relative;
+	top:15px;
+	left: 15px;
+}
+.ime{
+	font-weight: bold;
+	font-size:25px;
+}
+.ostale-info{
+	font-size:15px;
+	color: #888888;
+}
+.cetvrti{
+	position: relative;
+	background: white;
+	width: 350px;
+	height:150px;
+}
+.cetvrti-sadrzaj{
+	position: relative;
+	top:15px;
+	left:15px;
+}
+.sadrzaj{
+	background: #E0E0E0;
+	font-family: helvetica;
+	width: 1105px;
+	margin: 0 auto;
+	padding:10px;
+	height:1000px;
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}

@@ -384,33 +384,31 @@ textarea {
     div img {
         max-width: 100%;
     }
-
+/*.....................*/
     div.logo a {
             text-decoration:none;
             color: white;
-            font-family: "Arial Narrow";
-            font: "Narrow";
+            font-family: "Trebuchet MS";
             display:inline-block;
         }
 
         #footer {
+            margin: auto;
             float:left;
             display: inline-block;
             width: 100%;
-            padding: 50px;
-            background-color: #1E1B1B; 
+            background-color: #363738; 
             list-style-type: none;
             }     
 
         .icons ul li{
             display: inline-block;
-            margin:auto;
-            height: 100px;
-            width: 80px;
-            text-align:center;
+            height: 50px;
+            width: 60px;
+            text-align: center;
         }
         .icons {
-            width: 31%;
+            width: 340px;
             margin: auto;
         }
 
@@ -420,12 +418,22 @@ textarea {
 
         .pratite{
             color: white;
-            margin-left: 46%;
+            text-align: center;
         }
 
         #prvi-link{
             margin-left: 23%;
         }
+
+@media(max-width : 980px )
+{
+
+}
+
+@media(max-width : 600px )
+{
+
+}
 /*dosta vise tarika :P*/
 
 /*Nermin contactform*/

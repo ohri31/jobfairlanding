@@ -11,6 +11,10 @@
 	</head>
 
 	<body id="contact-body">
+	<?php
+		include 'menu.html';
+	?>
+
 		<div class="middle">
 			<div class="contact">
 				<h2>KONTAKT</h2>
@@ -34,31 +38,31 @@
 				<div id="bord_names">
 					<p class="name">Damir Bezdrob</p>
 					<p class="pozicija">Koordinator tima za ljudske resurse i logistiku</p>
-					<p class="broj_mail">edita.milisic@jobfair.ba<br>
+					<p class="broj_mail">damir.bezdrob@jobfair.ba<br>
 										+387 62 225 883</p>
 				</div>
 				<div id="bord_names">
 					<p class="name">Lejla Nukic</p>
 					<p class="pozicija">Koordinator tima za odnose sa kompanijama</p>
-					<p class="broj_mail">edita.milisic@jobfair.ba<br>
+					<p class="broj_mail">lejla.nukic@jobfair.ba<br>
 										+387 62 225 883</p>
 				</div>
 				<div id="bord_names">
 					<p class="name">Aldin Kiselica</p>
 					<p class="pozicija">Koordinator tima za informatičku podršku</p>
-					<p class="broj_mail">edita.milisic@jobfair.ba<br>
-										+387 62 225 883</p>
+					<p class="broj_mail">aldin.kiselica@jobfair.ba<br>
+										+387 61 760 892</p>
 				</div>
 				<div id="bord_names">
 					<p class="name">Berina Cocalic</p>
 					<p class="pozicija">Koordinator tima za dizajn i publikacije</p>
-					<p class="broj_mail">edita.milisic@jobfair.ba<br>
+					<p class="broj_mail">berina.cocalic@jobfair.ba<br>
 										+387 62 225 883</p>
 				</div>
 				<div id="bord_names">
 					<p class="name">Ilma Cengic</p>
 					<p class="pozicija">Koordinator tima za odnose s javnošću</p>
-					<p class="broj_mail">edita.milisic@jobfair.ba<br>
+					<p class="broj_mail">ilma.cengic@jobfair.ba<br>
 										+387 62 225 883</p>
 				</div>
 			</div>

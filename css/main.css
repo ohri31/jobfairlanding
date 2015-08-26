@@ -254,7 +254,7 @@ body{
 
         #login-logo{
             margin: auto;
-            width: 165px;
+            width: 193px;
             height: auto;
             padding-bottom: 20px;
             padding-top: 20px;
@@ -276,44 +276,40 @@ body{
 
 /*ooestecu css - Tarik*/
 
-    .meni {
-        height: 5vmax;
-        width: 100%;
-    }
 
     .header {
         background-color: #C91619;
         padding-top: 3vmin;
-        padding-left: 4%;
         padding-bottom: 2vmin;
-        height: 7vmin;
-        font-size: 4vmin;
+        padding-left: 70px;
+        padding-right: -70px;
         color: white;
-        font-family: serif;
-        font-weight: bold;
-        width: 96%;
+        font-family: "Trebuchet MS";
+        font-weight: bolder;
+        font-size: 180%;
+        width: 100%;
     }
 
     #text {
-        padding: 1vmin 4% 1vmin 4%;
-        margin: 2vmin 0vmin 2vmin 0vmin;
-        font-family: Trebuchet MS;
-        width: 92%;
-        font-size: 2vmin;
+        font-family: "Trebuchet MS";
+        width: 80%;
+        margin: auto;
+        color: #909191;
+        font-size: 100%;
+        font-weight: 100;
+        text-align: justify;
+        padding-bottom: 30px;
     }   
 
     #slika {
-        height: 200vmin;
-        padding-top: 5vmin;
-        width: 100%;
         display: block;
         text-align: center;
+        padding-bottom: 50px;
     }
+/*... end of oeestecu ...*/
 
-    div img {
-        max-width: 100%;
-    }
-/*.....................*/
+
+/*... footer css ...*/
 div.logo a {
     text-decoration:none;
     color: white;
@@ -382,10 +378,9 @@ div.logo a {
         font-size: 80%;
     }
 }
-/*dosta vise tarika :P*/
+/* end of footer*/
 
 /*Nermin contactform*/
-
 #contact-body{
             margin: auto;
             width: 100%;
@@ -468,7 +463,7 @@ div.logo a {
             border-radius: 4%;
         }
 
-/*Bice jos izmjena*/
+/*end of contactform*/
 
 
 /*Menu*/
@@ -514,22 +509,18 @@ div.logo a {
 .company
 {
     margin: auto;
-
 }
 #info_company
 {
             width: 660px;
             height: 330px;
-
             background-color: #ffffff;
             margin-left: 30px;
             margin-top: 50px;
 }
 
-
 #about_company
-{
-           
+{          
             width: 660px;
             height: 700px;
             background-color: #ffffff;
@@ -537,6 +528,7 @@ div.logo a {
             margin-top: -520px;
             
 }
+
 #contact_company
 {
             width: 660px;
@@ -654,6 +646,8 @@ div.logo a {
 
 /*end of memi baner*/
 
+/* cv-partner */
+
 .cv_partner{
     width: 660px;
     margin: auto;
@@ -690,6 +684,8 @@ div.logo a {
 #second-link:hover img{
     background-image: url('../img/cv-partner/partner2.png');
 }
+
+/* end of cv-partner */
 
 /*googlemaps*/
   #map {

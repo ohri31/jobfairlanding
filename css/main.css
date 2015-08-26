@@ -178,9 +178,14 @@ textarea {
     }
 }
 
+body{
+    background-color: #D9D9D9;
+}
+
 .screen{
     width: 1200px;
     color: #F2E6E6;
+    background-color: #FFFFFF;
     position:absolute;
     min-height: 100%;
     z-index:15;
@@ -700,3 +705,69 @@ div.logo a {
     bottom: 0;
   }
 /*end of googlemaps*/
+
+
+/*landing novosti*/
+
+.btn.btn-default {
+    margin-top: 70px;
+    margin-right: 5px;
+    font-family: 'Roboto';
+    font-size: 120%;
+    border: 1px solid #C91619;
+    color: #C91619;
+    border-radius: 10px;
+    border-style: solid;
+    width: 140px;
+    height: 40px;
+}
+
+.btn-box{
+    float: right;
+    height: 150px;
+    margin-top: 25px;
+}
+
+.row {
+    height: 200px;
+}
+
+.novosti{
+    width: 90%;
+    margin: auto;
+}
+
+.border-novost{
+    width:102%; 
+    margin-left:-1%; 
+}
+
+.img-novost{
+    float: left;
+    border:solid 1px;
+    width: 300px;
+    height: 150px;
+    margin-top: 25px;
+}
+
+.novost-tekst{
+    font-family: 'Roboto';
+    margin-top: 25px;
+    margin-left: 35px;
+    float: left;
+    width: 500px;
+    height: 150px;
+    color: #909191;
+    font-size: 130%;
+    font-weight: 100;
+}
+
+.novost-naslov{
+    font-family: 'Roboto';
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 180%;
+    font-weight: 300;
+}
+
+/*end of landing novosti*/

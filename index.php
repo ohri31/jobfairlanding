@@ -16,6 +16,7 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/custom.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
 
@@ -42,6 +43,10 @@
             <?php include 'partials/baner.html'; ?>
             <div><br><br><br><br></div>
             <?php include 'partials/link_cv_partner.html'; ?>
+            <div><br><br><br><br></div>
+
+            <?php include 'naslovna_novosti.html' ?>
+
             <div><br><br></div>
             <?php include 'partials/googlemaps.html'; ?>
             <?php include 'partials/footer.html'; ?>

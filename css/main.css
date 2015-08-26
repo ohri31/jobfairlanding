@@ -755,6 +755,7 @@ div.logo a {
     margin-left: 5px;
     width: 300px;
     height: 150px;
+    border:none;
 }
 
 .novost-tekst{

@@ -36,7 +36,7 @@
         </script>
         
 
-        <div class="screen">
+        <div id="screen">
             <?php include 'partials/menu.html'; ?>
 
             <?php include 'partials/baner.html'; ?>
@@ -51,9 +51,9 @@
             <?php include 'partials/footer.html'; ?>
         </div>
 
-        <script src="js/main.js"></script>
         <script async defer src="https://maps.googleapis.com/maps/api/js?signed_in=true&callback=initMap"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
         <script src="bootstrap/js/bootstrap.js"></script>
     </body>
+        <script src="js/main.js"></script>
 </html>

@@ -744,15 +744,22 @@ div.logo a {
 
 .img-novost{
     float: left;
-    border:solid 1px;
+    width: 300px;
+    height: auto;
+    border:none;
+}
+
+.img-block{
+    margin-top: 25px;
+    float: left;
+    margin-left: 5px;
     width: 300px;
     height: 150px;
-    margin-top: 25px;
 }
 
 .novost-tekst{
     font-family: 'Roboto';
-    margin-top: 25px;
+    margin-top: 15px;
     margin-left: 35px;
     float: left;
     width: 500px;
@@ -764,7 +771,6 @@ div.logo a {
 
 .novost-naslov{
     font-family: 'Roboto';
-    margin-top: 10px;
     margin-bottom: 10px;
     font-size: 180%;
     font-weight: 300;

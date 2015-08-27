@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css"> 
         <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css">
-        <link rel="stylesheet" href="bootstrap/css//bootstrap.css">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
@@ -39,14 +39,14 @@
         <div id="screen">
             <?php include 'partials/menu.html'; ?>
 
-            <?php include 'partials/baner.html'; ?>
-            <div><br><br><br><br></div>
+            <?php  include 'partials/baner.html'; ?>
+            <div class="prazan-prostor"><br><br><br><br></div>
             <?php include 'partials/link_cv_partner.html'; ?>
-            <div><br><br><br><br></div>
+            <div class="prazan-prostor"><br><br><br><br></div>
 
-            <?php include 'partials/news.html' ?>
+           <?php include 'partials/news.html' ?>
 
-            <div><br><br></div>
+            <div class="prazan-prostor"><br><br></div>
             <?php include 'partials/googlemaps.html'; ?>
             <?php include 'partials/footer.html'; ?>
         </div>

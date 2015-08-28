@@ -226,7 +226,7 @@ body{
             padding-bottom: 25px;
         }
 
-        .input-login-u, .input-login-p{
+        .input-login-u, .input-login-u1, .input-login-p{
             width: 400px;
             height: 28px;
             margin-left: 25px;
@@ -239,6 +239,11 @@ body{
             font-size: 15px;
             color: #D92528;
             font-family: 'Roboto';
+        }
+
+        .input-login-u1{
+            text-align: left;
+            color: #646566;
         }
 
         .input-login-u:focus, .input-login-p:focus{
@@ -281,7 +286,7 @@ body{
         padding: 7px;
     }
     
-    .login .input-login-u, .login .input-login-p
+    .login .input-login-u, .login .input-login-p, .input-login-u1
     {
         width:100%;
         margin-left: 0px;

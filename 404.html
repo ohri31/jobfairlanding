@@ -53,8 +53,17 @@
     </style>
 </head>
 <body>
+    <img alt="" src="img/404.png">
     <h1>Page Not Found</h1>
-    <p>Sorry, but the page you were trying to view does not exist.</p>
+    <p>Sorry, but the page you were trying to view does not exist.<br>
+    <a href="" onclick="goBack()" style="text-decoration:none;">Go back!</a>
+    </p>
+    <script>
+        function goBack()
+        {
+            window.history.back();
+        }
+    </script>
 </body>
 </html>
 <!-- IE needs 512+ bytes: http://blogs.msdn.com/b/ieinternals/archive/2010/08/19/http-error-pages-in-internet-explorer.aspx -->

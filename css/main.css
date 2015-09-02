@@ -185,7 +185,7 @@ body{
 
 #screen{
     max-width: 1200px;
-    color: #F2E6E6;
+    color: #909191;
     background-color: #FFFFFF;
 /*    position:absolute;*/
 /*    min-height: 100%;*/
@@ -312,11 +312,11 @@ body{
     .header {
         background-color: #C91619;
         padding-top: 3vmin;
-        padding-bottom: 2vmin;
+        padding-bottom: 50px;
         padding-left: 70px;
         padding-right: -70px;
         color: white;
-        font-family: "Roboto";
+        font-family: "Trebuchet MS";
         font-weight: bolder;
         font-size: 180%;
         width: 100%;
@@ -353,7 +353,7 @@ div.logo a {
 #footer {
 /*    position: absolute;*/
 /*    bottom: 0;*/
-/*    padding-top: 93px;*/
+    padding-top: 40px;
     margin: auto;
 /*    max-width: 1200px;*/
     width: 100%;
@@ -749,17 +749,17 @@ div.logo a {
 .button-oprojektu
 {
     background-color: white;
-    border-radius: 13px;
+    border-radius: 8px;
     border: none;
     color: #D92528;
     padding:5px 25px;
     margin-top:30px;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .button-oprojektu:hover{
     font-weight: 400;
-    padding-right: 23px;
+    padding-right: 24px;
 }
 
 @media(max-width : 980px )
@@ -968,7 +968,7 @@ div.logo a {
 /*googlemaps*/
   #map {
     max-width: 1200px;
-    height: 300px;
+    height: 400px;
     bottom: 0;
   }
 /*end of googlemaps*/
@@ -1173,3 +1173,64 @@ div.logo a {
     width: 100%;
 }
 /*end of Prazan prostor*/
+
+
+/* spica novosti */
+
+.naslov {
+	color:white;
+	background-color:#C91619; 
+	padding-left: 10%;
+	padding-right: 5%;
+	height: 300px;
+	padding-top: 2%;
+	display: block;
+}
+
+.tekst{
+	padding-top: 2%;
+}
+
+.tekst .col-3 {
+	padding-left: 10%;
+}
+
+.col-3 li{
+	padding-right: 5%;
+}
+
+.tekst .col-9 {
+	padding-right: 10%;
+}
+
+.slike li{
+	list-style-type: none;
+	display: inline-block;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.col-9 p {
+	font-family:'Trebuchet MS';
+}
+
+#twitter, #youtube, #instagram, #facebook, #linkedin{
+    width:30px;
+    height: 30px;
+    float: right;
+    position: relative;
+    margin-left: 5px;
+    bottom: 20px;
+}
+
+#google{
+    width:30px;
+    height: 30px;
+    float: right;
+    position: relative;
+    margin-left: 5px;
+    margin-right: 10%;
+    bottom: 20px;
+}
+
+/*end of spica novosti*/

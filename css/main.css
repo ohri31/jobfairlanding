@@ -339,6 +339,14 @@ body{
         text-align: center;
         padding-bottom: 50px;
     }
+
+@media(max-width:480px)
+{
+     .header {
+        margin-top: 75px;
+         padding-bottom: 30px;
+    }
+}
 /*... end of oeestecu ...*/
 
 
@@ -624,9 +632,18 @@ div.logo a {
     position: fixed;
     top: 0;
     width: 1200px;
-    height: 95px;
+    height: auto;
     z-index: 1000;
     border-bottom: solid 1px;
+}
+
+@media(max-width:1200px)
+{
+    #menu
+    {
+        width:100%;
+        
+    }
 }
 
 .top{
@@ -714,7 +731,7 @@ div.logo a {
 
 .header-row
 {
-    margin-top: 95px;
+    margin-top: 75px;
     height:420px;
     width:100%;
     background-color: #D92528;

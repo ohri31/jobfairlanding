@@ -749,16 +749,16 @@ div.logo a {
 .header-text
 {
 /*    background-color: #D92528;*/
-    width:55%;
+    width:50%;
     float:left;
 /*    border:1px solid black;*/
     margin-left:45px;
-    margin-top:60px;
+    margin-top:20px;
 }
 
 .header-pic
 {
-    width:40%;
+    width:43%;
     height:100%;
     float:right;
     overflow: hidden;
@@ -774,6 +774,7 @@ div.logo a {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 42px;
+    margin-bottom: 50px;
 }   
 
 .header-title-small
@@ -781,6 +782,7 @@ div.logo a {
     color:white;
     font-size: 18px;
     width:70%;
+    margin-bottom: 20px;
     font-weight: 100;
 }
 
@@ -791,13 +793,13 @@ div.logo a {
     border: none;
     color: #D92528;
     padding:5px 25px;
-    margin-top:30px;
+    margin-top:35px;
     font-weight: 400;
 }
 
 .button-oprojektu:hover{
-    font-weight: 500;
-    padding-right: 24px;
+    font-weight: 600;
+    padding-right: 25px;
 }
 
 @media(max-width : 980px )
@@ -825,7 +827,7 @@ div.logo a {
     .header-text
     {
         width:90%;
-        margin-top:90px;
+        margin-top:20px;
     }
     
     .header-title
@@ -850,7 +852,7 @@ div.logo a {
     {
         width:80%;
         margin-left:25px;
-        margin-top:50px;
+        margin-top:10px;
     }
     
     .header-row

@@ -244,7 +244,7 @@ body{
             margin-bottom: 1px;
             font-size: 15px;
             color: #D92528;
-            font-family: 'Roboto';
+            font-family: 'Bree Serif';
         }
 
         .input-login-u1{
@@ -322,7 +322,7 @@ body{
         padding-left: 70px;
         padding-right: -70px;
         color: white;
-        font-family: "Trebuchet MS";
+        font-family: "Bree Serif";
         font-weight: bolder;
         font-size: 180%;
         width: 100%;
@@ -330,7 +330,7 @@ body{
     }
 
     #text {
-        font-family: "Roboto";
+        font-family: "Bree Serif";
         width: 80%;
         margin: auto;
         color: #909191;
@@ -360,7 +360,7 @@ body{
 div.logo a {
     text-decoration:none;
     color: white;
-    font-family: "Roboto";
+    font-family: "Bree Serif";
     font-size: 110%;
     display:inline-block;
 }
@@ -454,7 +454,7 @@ div.logo a {
             margin-right: 120px;
             width: 500px;
             height: 300px;
-            font-family: 'Roboto';
+            font-family: 'Bree Serif';
             color: #646566;
             float: left;
         }
@@ -465,7 +465,7 @@ div.logo a {
         }
 
         .form-text{
-            font-family: 'Roboto';
+            font-family: 'Bree Serif';
             width: 500px;
             height: 100px;
             margin-bottom: 20px;
@@ -507,7 +507,7 @@ div.logo a {
             max-height: 200px;
         }
         p.name{
-            font-family: 'Roboto';
+            font-family: 'Bree Serif';
             font-size: 20px;
             margin-bottom: 0;
             margin-top: 20px;
@@ -521,7 +521,7 @@ div.logo a {
             color: #646566;
         }
         p.broj_mail{
-            font-family: 'Roboto';
+            font-family: 'Bree Serif';
             font-weight: 500;
             font-size: 12px;
             color: #C91619;
@@ -538,7 +538,7 @@ div.logo a {
             width: 90px;
             float: right;
             font-weight: 500;
-            font-family: 'Roboto';
+            font-family: 'Bree Serif';
         }
 
 
@@ -655,7 +655,7 @@ div.logo a {
 .top{
     bottom: 2em;
     display: none;
-    font-family:'Trebuchet MS';    
+    font-family:'Bree Serif';    
     opacity:0.7;
     padding: 1.2em;
     position: fixed;
@@ -668,7 +668,7 @@ div.logo a {
 .top:hover {
     opacity: 1;
     transition: 1s;
-    font-family:'Trebuchet MS';    
+    font-family:'Bree Serif';    
     border: 3px solid #696969;
     background-color: #505050;
     border-radius: 5px;
@@ -739,7 +739,7 @@ div.logo a {
 
 .header-row
 {
-    margin-top: 75px;
+    margin-top: 100px;
     height:420px;
     width:100%;
     background-color: #D92528;
@@ -753,7 +753,7 @@ div.logo a {
     float:left;
 /*    border:1px solid black;*/
     margin-left:45px;
-    margin-top:120px;
+    margin-top:60px;
 }
 
 .header-pic
@@ -1019,7 +1019,7 @@ div.logo a {
 {
     margin-top: 70px;
     margin-right: 5px;
-    font-family: 'Roboto';
+    font-family: 'Bree Serif';
     font-size: 120%;
     border: 1px solid #C91619;
     color: #C91619;
@@ -1067,7 +1067,7 @@ div.logo a {
 }
 
 .novost-tekst{
-    font-family: 'Roboto';
+    font-family: 'Bree Serif';
     margin-top: 15px;
     margin-left: 35px;
     float: left;
@@ -1080,7 +1080,7 @@ div.logo a {
 }
 
 .novost-naslov{
-    font-family: 'Roboto';
+    font-family: 'Bree Serif';
     margin-bottom: 10px;
 /*    font-size: 180%;*/
     font-size:37px;
@@ -1257,7 +1257,7 @@ div.logo a {
 }
 
 .col-9 p {
-	font-family:'Trebuchet MS';
+	font-family:'Bree Serif';
 }
 
 #twitter, #youtube, #instagram, #facebook, #linkedin{

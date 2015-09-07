@@ -4403,13 +4403,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     background-image: none;
   }
 }
-  .navbar-nav > li:hover 
-    {
+    .navbar-nav > li:hover {
       /*ovdje ide majrin css*/
     color: #d92528;
-    font-weight: 800; 
     border-bottom: 6px solid #d92528;
-    font-family: 'Trebuchet MS';
     }
 
 @media (min-width: 780px) {

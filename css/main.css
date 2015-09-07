@@ -1,3 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif&subset=latin,latin-ext);
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300&subset=latin,latin-ext);
+
+@import url(https://fonts.googleapis.com/css?family=Domine:400,700&subset=latin,latin-ext);
+
 html {
     color: #222;
     font-size: 1em;
@@ -649,6 +655,7 @@ div.logo a {
 .top{
     bottom: 2em;
     display: none;
+    font-family:'Trebuchet MS';    
     opacity:0.7;
     padding: 1.2em;
     position: fixed;
@@ -661,6 +668,7 @@ div.logo a {
 .top:hover {
     opacity: 1;
     transition: 1s;
+    font-family:'Trebuchet MS';    
     border: 3px solid #696969;
     background-color: #505050;
     border-radius: 5px;
@@ -753,7 +761,11 @@ div.logo a {
     width:40%;
     height:100%;
     float:right;
-    border:1px solid black;
+    overflow: hidden;
+}
+
+.header-pic img{
+    float: center;
 }
 
 .header-title
@@ -780,11 +792,11 @@ div.logo a {
     color: #D92528;
     padding:5px 25px;
     margin-top:30px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .button-oprojektu:hover{
-    font-weight: 400;
+    font-weight: 500;
     padding-right: 24px;
 }
 
@@ -904,6 +916,7 @@ div.logo a {
     text-decoration: none;
     color: #D92528;
     font-weight: 400;
+    font-family: 'Bree Serif';
 }
 
 .cv_partner ul li a:hover

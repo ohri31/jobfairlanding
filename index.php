@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css"> 
         <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css">
         <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="shortcut icon" href="favicon.ico?v=2">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>

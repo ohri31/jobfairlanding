@@ -1273,3 +1273,102 @@ div.logo a {
 }    
 
 /*end of spica novosti*/
+
+/*GALLERY*/
+
+
+
+#gallery-pic img 
+{
+    width:100%;
+/*    padding:2px;*/
+    -moz-transition: all 1s;
+   -o-transition: all 1s;
+   -webkit-transition: all 1s;
+   transition: all 1s;
+    
+}
+
+.gallery-all
+{
+   width:100%;
+   height:100%;
+   font-family: 'Roboto';
+}
+
+.gallery-part
+{
+    float:left;
+    width:25%;
+}
+
+.gallery-text
+{
+/*    text-align: center;*/
+    text-decoration: none;
+    color: #363738;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 20px 20px;
+}
+
+.overlay0,.overlay1,.overlay2,.overlay3,.overlay4,.overlay5,.overlay6
+{
+    opacity: 0;
+    width:25%;
+    position: absolute;
+    -moz-transition: all 1s;
+   -o-transition: all 1s;
+   -webkit-transition: all 1s;
+    transition: all 1s;
+}
+ 
+.gallery-text-line
+{
+    height:2px;
+    width:30%;
+    background-color: #363738;
+}
+
+@media(max-width:1100px)
+{
+  .gallery-part
+    {
+        width:33.333%;
+    }
+    
+    .overlay0,.overlay1,.overlay2,.overlay3,.overlay4,.overlay5,.overlay6
+    {
+       width:33.333%;
+    }
+}
+
+@media(max-width:760px)
+{
+    .gallery-part
+    {
+        width:50%;
+    }
+    
+    .overlay0,.overlay1,.overlay2,.overlay3,.overlay4,.overlay5,.overlay6
+    {
+       width:50%;
+    }
+}
+
+
+@media(max-width:480px)
+{
+    .gallery-part
+    {
+        width:100%;
+    }
+    
+    .overlay0,.overlay1,.overlay2,.overlay3,.overlay4,.overlay5,.overlay6
+    {
+       width:100%;
+    }
+}
+
+
+/*end of GALLERY*/

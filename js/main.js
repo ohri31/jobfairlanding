@@ -32,3 +32,137 @@ function poziv(page){
     ajax.open("GET", page, true);
     ajax.send();
 }
+
+function galleryhover(num)
+{
+    var obj = 'overlay' + num;
+    var gal = 'gallery' + num;
+    document.getElementsByClassName(obj)[0].style.opacity = 1;
+    document.getElementsByClassName(gal)[0].style.backgroundColor="#909191";
+    document.getElementsByClassName(gal)[0].style.opacity = 0.4;
+}
+
+function gallerynohover(num)
+{
+    var obj = 'overlay' + num;
+    var gal = 'gallery' + num;
+    document.getElementsByClassName(obj)[0].style.opacity = 0;
+    document.getElementsByClassName(gal)[0].style.backgroundColor="#909191";
+    document.getElementsByClassName(gal)[0].style.opacity = 1;
+}
+
+function opengallery(num)
+{
+    switch(num)
+    {
+            case 0:
+                $.fancybox.open([
+                    {
+                        href : 'img/gallery/gallery1/1.JPG'
+                    }, {
+                        href : 'img/gallery/gallery1/2.JPG'
+                    }
+                ], {
+                    helpers : {
+                        thumbs : {
+                            width: 75,
+                            height: 50
+                        }
+                    }
+                });
+            break;
+          case 1:
+                $.fancybox.open([
+                    {
+                        href : 'img/gallery/gallery2/1.JPG'
+                    }, {
+                        href : 'img/gallery/gallery2/2.JPG'
+                    }, {
+                        href : 'img/gallery/gallery2/3.JPG'
+                    }, {
+                        href : 'img/gallery/gallery2/4.JPG'
+                    }
+                ], {
+                    helpers : {
+                        thumbs : {
+                            width: 75,
+                            height: 50
+                        }
+                    }
+                }); 
+            break;
+            case 2:
+                $.fancybox.open([
+                    {
+                        href : 'img/gallery/gallery3/1.JPG'
+                    }, {
+                        href : 'img/gallery/gallery3/2.JPG'
+                    }, {
+                        href : 'img/gallery/gallery3/3.JPG'
+                    }, {
+                        href : 'img/gallery/gallery3/4.JPG'
+                    }
+                ], {
+                    helpers : {
+                        thumbs : {
+                            width: 75,
+                            height: 50
+                        }
+                    }
+                });
+            break;
+            case 3:
+                $.fancybox.open([
+                    {
+                        href : 'img/gallery/gallery4/1.JPG'
+                    }, {
+                        href : 'img/gallery/gallery4/2.JPG'
+                    }
+                ], {
+                    helpers : {
+                        thumbs : {
+                            width: 75,
+                            height: 50
+                        }
+                    }
+                });
+            break;
+            case 4:    
+            $.fancybox.open([
+                    {
+                        href : 'img/gallery/gallery5/1.JPG'
+                    }, {
+                        href : 'img/gallery/gallery5/2.JPG'
+                    }
+                ], {
+                    helpers : {
+                        thumbs : {
+                            width: 75,
+                            height: 50
+                        }
+                    }
+                });
+            break;
+            case 5:
+                $.fancybox.open([
+                    {
+                        href : 'img/gallery/gallery6/1.JPG'
+                    }, {
+                        href : 'img/gallery/gallery6/2.JPG'
+                    }, {
+                        href : 'img/gallery/gallery6/3.JPG'
+                    }, {
+                        href : 'img/gallery/gallery6/4.JPG'
+                    }
+                ], {
+                    helpers : {
+                        thumbs : {
+                            width: 75,
+                            height: 50
+                        }
+                    }
+                });
+            break;
+    }
+            
+}

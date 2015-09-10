@@ -744,6 +744,11 @@ div.logo a {
     width:100%;
     background-color: #D92528;
 /*    position: absolute;*/
+    
+     -moz-transition: all 1s;
+   -o-transition: all 1s;
+   -webkit-transition: all 1s;
+   transition: all 1s;
 }
 
 .header-text
@@ -758,10 +763,15 @@ div.logo a {
 
 .header-pic
 {
-    width:43%;
+    width:40%;
     height:100%;
     float:right;
     overflow: hidden;
+    
+     -moz-transition: all 2s;
+   -o-transition: all 2s;
+   -webkit-transition: all 2s;
+   transition: all 2s;
 }
 
 .header-pic img{
@@ -781,7 +791,7 @@ div.logo a {
 {
     color:white;
     font-size: 18px;
-    width:70%;
+    width:80%;
     margin-bottom: 20px;
     font-weight: 100;
 }
@@ -812,9 +822,19 @@ div.logo a {
     
     .header-text
     {
+        width:55%;
+    }
+
+}
+
+@media(max-width : 900px )
+{
+    .header-text
+    {
         width:90%;
     }
 }
+
 
 @media(max-width : 600px )
 {
@@ -826,7 +846,6 @@ div.logo a {
     
     .header-text
     {
-        width:90%;
         margin-top:20px;
     }
     
@@ -836,7 +855,7 @@ div.logo a {
     }
 }
 
-@media(max-width : 480px )
+@media(max-width : 450px )
 {
     .header-title
     {
@@ -857,7 +876,8 @@ div.logo a {
     
     .header-row
     {
-        height:360px;
+        height:500px;
+        margin-top:75px;
     }
     
     .navbar-brand > img
@@ -876,20 +896,21 @@ div.logo a {
 {
     .header-title-small
     {
-        font-size: 15px;
+        font-size: 14px;
         width:80%;
     }
     
     .header-text
     {
         width:80%;
-        margin-left:25px;
-        margin-top:50px;
+        margin-left:24px;
+        margin-top:10px;
     }
     
     .header-row
     {
-        height:360px;
+        height:460px;
+        margin-top:75px;
     }
     
 }

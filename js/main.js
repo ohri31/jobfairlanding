@@ -51,6 +51,30 @@ function gallerynohover(num)
     document.getElementsByClassName(gal)[0].style.opacity = 1;
 }
 
+function gallerynewshover(num)
+{
+    var obj = 'news-img-top';
+    var gal = 'otvori-galeriju';
+    var gal_line = "otvori-galeriju-under-line";
+    
+    document.getElementsByClassName(gal)[0].style.opacity = 1;
+     document.getElementsByClassName(gal)[0].style.color = "#909191";
+    document.getElementsByClassName(gal_line)[0].style.backgroundColor = "#909191";
+    document.getElementsByClassName(obj)[0].style.backgroundColor="#909191";
+    document.getElementsByClassName(obj)[0].style.opacity = 0.5;
+}
+
+function gallerynewsnohover(num)
+{
+    var obj = 'news-img-top';
+    var gal = 'otvori-galeriju';
+    var gal_line = "otvori-galeriju-under-line";
+     document.getElementsByClassName(gal)[0].style.color = "white";
+    document.getElementsByClassName(gal_line)[0].style.backgroundColor = "white";
+    document.getElementsByClassName(gal)[0].style.opacity = 0.5;
+    document.getElementsByClassName(obj)[0].style.opacity = 1;
+}
+
 function opengallery(num)
 {
     switch(num)

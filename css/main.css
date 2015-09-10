@@ -1014,6 +1014,92 @@ div.logo a {
   }
 /*end of googlemaps*/
 
+/*prikaz jedne novosti*/
+
+.gallery-news
+{
+    width:100%;
+    height:100%;
+    
+     -moz-transition: all 1s;
+   -o-transition: all 1s;
+   -webkit-transition: all 1s;
+   transition: all 1s;
+     cursor: pointer; 
+    cursor: hand;
+}
+
+.otvori-galeriju
+{
+    position: absolute;
+    font-size: 50px;
+    opacity:0.5;
+    padding:30px;
+    color:white;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    
+   
+}
+
+.otvori-galeriju-under-line
+{
+    height:5px;
+    width:55%;
+    background-color:white;
+    margin-top:20px;
+}
+
+.slika-news-gallery
+{
+    width:100%;
+    height: 300px;
+}
+
+@media(max-width:900px)
+{
+    .otvori-galeriju
+    {
+        font-size:45px;
+    }
+    
+    .otvori-galeriju-under-line
+    {
+        height:5px;
+        width:40%;
+    }
+}
+
+@media(max-width:600px)
+{
+    .otvori-galeriju
+    {
+        font-size:35px;
+    }
+    
+    .otvori-galeriju-under-line
+    {
+        height:4px;
+        width:35%;
+    }
+}
+
+@media(max-width:300px)
+{
+    .otvori-galeriju
+    {
+        font-size:25px;
+    }
+    
+    .otvori-galeriju-under-line
+    {
+        height:3px;
+        width:30%;
+    }
+}
+/*end of prikaz jedne novosti*/
 
 /*landing novosti*/
 
@@ -1283,8 +1369,16 @@ div.logo a {
 
 .news-img-top{ 
     width: 100%;
-    height: 400px;
+/*    height: 400px;*/
     overflow: hidden;
+    
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+     -moz-transition: all 1s;
+   -o-transition: all 1s;
+   -webkit-transition: all 1s;
+   transition: all 1s;
 }    
 
 /*end of spica novosti*/

@@ -768,10 +768,10 @@ div.logo a {
     float:right;
     overflow: hidden;
     
-     -moz-transition: all 2s;
-   -o-transition: all 2s;
-   -webkit-transition: all 2s;
-   transition: all 2s;
+    -moz-transition: all 2s;
+    -o-transition: all 2s;
+    -webkit-transition: all 2s;
+    transition: all 2s;
 }
 
 .header-pic img{
@@ -812,7 +812,7 @@ div.logo a {
     padding-right: 25px;
 }
 
-@media(max-width : 980px )
+@media(max-width : 1050px )
 {
     .header-pic
     {

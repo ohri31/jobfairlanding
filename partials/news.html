@@ -1,12 +1,13 @@
-  	<div class = "novosti">
+<div id="ns" ng-app="naslovnaJF" ng-controller="naslovnaControler">
+    <div class="novosti" ng-repeat="novosti in ns">
 	  	<div class="row-news">
         <div class="img-block">
-          <img class="img-novost" src="img/logo/logo.png" alt="">
+          <img class="img-novost" src="{{ novosti.naslovna_slika }}" alt="">
         </div>
         <div class="novost-tekst">
-          <div class="novost-naslov">Naslov</div>
+          <div class="novost-naslov">{{ novosti.naslov }}</div>
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+            {{ novosti.opis }}
           </p>
         </div>
         <div class="btn-box">
@@ -15,6 +16,8 @@
 	  	</div>
 	  	<hr class="border-novost">
   	</div>
+</div>
+<!--
     <div class = "novosti">
       <div class="row-news">
         <div class="img-block">
@@ -49,6 +52,7 @@
       </div>
       <hr class="border-novost">
     </div>
+  -->
     <div class="btn-div">
       <input class="btn-show-more" type="button" value="Učitaj više">
     </div>

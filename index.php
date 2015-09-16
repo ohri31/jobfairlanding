@@ -11,14 +11,15 @@
         <title>JobFAIR '15</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
+
                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+               <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css"> 
+        <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css">
         <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
         <link rel="shortcut icon" href="favicon.ico?v=2">
@@ -28,10 +29,10 @@
     </head>
 
     <body>
- 
+
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-        
+
          <!-- Add fancyBox -->
     <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
     <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
@@ -43,7 +44,7 @@
 
     <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
     <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
-        
+
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
@@ -54,7 +55,7 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
         </script>
-        
+
 
         <div id="screen">
             <?php include 'partials/menu.html'; ?>
@@ -71,21 +72,25 @@
             <?php include 'partials/footer.html'; ?>
         </div>
 
-        
-        
+
+
         <script type="text/javascript">
             $(document).ready(function() {
                 console.log("fensi index.php");
             $(".fancybox").fancybox();
             });
         </script>
-    
-        
+
+
         <script src="js/main.js"></script>
+        <script src="js/angular/naslovna.js"></script>
         <script async defer src="https://maps.googleapis.com/maps/api/js?signed_in=true&callback=initMap"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
         <script src="bootstrap/js/bootstrap.js"></script>
-    
-        
+        <script type="text/javascript">
+            //angular.bootstrap(document.getElementById('ns'), ['naslovnaJF']);
+        </script>
+
+
     </body>
 </html>

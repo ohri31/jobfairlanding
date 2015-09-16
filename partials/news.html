@@ -1,4 +1,4 @@
-<div id="ns" ng-app="naslovnaJF" ng-controller="naslovnaControler">
+<div id="ns" ng-controller="naslovnaControler">
     <div class="novosti" ng-repeat="novosti in ns">
 	  	<div class="row-news">
         <div class="img-block">
@@ -11,7 +11,7 @@
           </p>
         </div>
         <div class="btn-box">
-          <a class="btn btn-default" href="#" role="button">Opširnije</a>
+          <a class="btn btn-default" href="#novost/id={{novosti.id}}" role="button">Opširnije</a>
         </div>
 	  	</div>
 	  	<hr class="border-novost">

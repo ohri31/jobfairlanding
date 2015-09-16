@@ -13,6 +13,15 @@ function initMap() {
     });
 }
 
+function ChangeUrl(page, url) {
+        if (typeof (history.pushState) != "undefined") {
+            var obj = { Page: page, Url: url };
+            history.pushState(obj, obj.Page, obj.Url);
+        } else {
+            alert("Browser does not support HTML5.");
+        }
+    }
+
 function poziv(page){
     var ajax;
     if (window.XMLHttpRequest){
@@ -31,6 +40,12 @@ function poziv(page){
     }
     ajax.open("GET", page, true);
     ajax.send();
+}
+
+function ucitaj_vijest(id){
+    $.post('action.php', {action: 'ucitaj_vijest', id: id}, function(res){
+      $('#screen').epmty().append(res);
+    });
 }
 
 function galleryhover(num)
@@ -56,7 +71,7 @@ function gallerynewshover(num)
     var obj = 'news-img-top';
     var gal = 'otvori-galeriju';
     var gal_line = "otvori-galeriju-under-line";
-    
+
     document.getElementsByClassName(gal)[0].style.opacity = 1;
      document.getElementsByClassName(gal)[0].style.color = "#909191";
     document.getElementsByClassName(gal_line)[0].style.backgroundColor = "#909191";
@@ -113,7 +128,7 @@ function opengallery(num)
                             height: 50
                         }
                     }
-                }); 
+                });
             break;
             case 2:
                 $.fancybox.open([
@@ -151,7 +166,7 @@ function opengallery(num)
                     }
                 });
             break;
-            case 4:    
+            case 4:
             $.fancybox.open([
                     {
                         href : 'img/gallery/gallery5/1.JPG'
@@ -188,5 +203,5 @@ function opengallery(num)
                 });
             break;
     }
-            
+
 }

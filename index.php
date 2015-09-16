@@ -9,6 +9,7 @@
 
                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
                <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+               <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.28//angular-route.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -23,7 +24,7 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
 
-    <body>
+    <body ng-app="jfApp">
 
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
@@ -52,26 +53,15 @@
         </script>
 
 
-        <div id="screen">
-            <?php include 'partials/menu.html'; ?>
-
-            <?php  include 'partials/baner.html'; ?>
-            <div class="prazan-prostor"><br><br><br><br></div>
-            <?php include 'partials/link_cv_partner.html'; ?>
-            <div class="prazan-prostor"><br><br><br><br></div>
-
-           <?php include 'partials/news.html' ?>
-
-            <div class="prazan-prostor"><br><br></div>
-            <?php include 'partials/googlemaps.html'; ?>
-            <?php include 'partials/footer.html'; ?>
+        <div id="screen" ng-view>
+            <center><img src="https://d13yacurqjgara.cloudfront.net/users/12755/screenshots/1037374/hex-loader2.gif" /></center>
         </div>
 
 
 
         <script type="text/javascript">
             $(document).ready(function() {
-                console.log("fensi index.php");
+
             $(".fancybox").fancybox();
             });
         </script>
@@ -79,11 +69,13 @@
 
         <script src="js/main.js"></script>
         <script src="js/angular/naslovna.js"></script>
+
         <script async defer src="https://maps.googleapis.com/maps/api/js?signed_in=true&callback=initMap"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
         <script src="bootstrap/js/bootstrap.js"></script>
         <script type="text/javascript">
-            //angular.bootstrap(document.getElementById('ns'), ['naslovnaJF']);
+            //angular.bootstrap(document.getElementById('nov-ost'), ['ucitajNovost']);
+
         </script>
 
 

@@ -3,7 +3,7 @@
 JobFAIR '15 ZVANIČNO OTVOREN NA SVEČANOJ CEREMONIJI OTVARANJA
 		</div>
         
-        <div id="">
+        <div id="ikonice">
             <a href=""><img id="google" alt="+google" src="img/social-media/google.png"></a>
             <a href=""><img id="linkedin" alt="linked" src="img/social-media/linkedin.png"></a>
             <a href=""><img id="twitter" alt="tviter" src="img/social-media/twitter.png"></a>

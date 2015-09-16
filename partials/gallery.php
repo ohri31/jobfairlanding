@@ -12,12 +12,12 @@
 
 
 
-<div class="header">
+    <div class='header'>
 		Gallery	
 	</div>
 	<div class="gallery-all">
          <?php 
-            $dirname = "img/gallery";
+            $dirname = "../img/gallery";
             $files = scandir($dirname);
             $out = array_shift($files);
             $out = array_shift($files);
@@ -25,20 +25,16 @@
             
         ?>
        <?php $i = 0; foreach($files as $directoryname):?>
-<div class="gallery-part">
-    
-          <div onclick="opengallery(<?php echo $i; ?>)" onmouseover="galleryhover(<?php echo $i;?>)"  onmouseout="gallerynohover(<?php echo $i;?>)" id="gallery-pic" class="<?php echo 'gallery-pic'.$i; ?>">
+        <div class="gallery-part">
+            <div onclick="opengallery(<?php echo $i; ?>)" onmouseover="galleryhover(<?php echo $i;?>)"  onmouseout="gallerynohover(<?php echo $i;?>)" id="gallery-pic" class="<?php echo 'gallery-pic'.$i; ?>">
               <div  class="<?php echo 'overlay'.$i; ?>">
                    <div class="gallery-text"><?php echo $imenagalerija[$directoryname]; ?></div>
                    <div class="gallery-text-line"></div>
               </div>
-              <a href="javascript:;">
-              <img src="<?php echo $dirname."/".$files[$i]."/tab.jpg"; ?>" class="<?php echo "gallery".$i;?>"  alt="">
-        
-            </a></div>
-          
-		</div>  
+            <a href="javascript:;">
+              <img src="<?php echo 'img/gallery/'.$files[$i]."/tab.jpg"; ?>" class="<?php echo "gallery".$i;?>"  alt="">
+            </a>
+            </div>
+        </div>  
     <?php $i = $i+1; endforeach;?>
-         
 	</div>
-     

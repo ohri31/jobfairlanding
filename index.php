@@ -1,4 +1,9 @@
 <!doctype html>
+
+<?php
+    $url_home = 'http://localhost/jobfairlanding/';
+?>
+
 <html class="no-js" lang="">
     <head>
         <meta charset="utf-8">

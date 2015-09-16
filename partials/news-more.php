@@ -3,8 +3,13 @@
 		<div class = "header">
 			{{ novost.naslov }}
 		</div>
+<<<<<<< HEAD
 
         <div id="">
+=======
+        
+        <div id="ikonice">
+>>>>>>> 4abf417c5b506d9a91ce95d1bf8d1ebcf2c710e0
             <a href=""><img id="google" alt="+google" src="img/social-media/google.png"></a>
             <a href=""><img id="linkedin" alt="linked" src="img/social-media/linkedin.png"></a>
             <a href=""><img id="twitter" alt="tviter" src="img/social-media/twitter.png"></a>

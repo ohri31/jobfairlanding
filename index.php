@@ -1,7 +1,7 @@
 <!doctype html>
 
 <?php
-    $url_home = 'http://localhost/jobfairlanding/';
+    $url_home = 'http://localhost/jobfair/landing/';
 ?>
 
 <html class="no-js" lang="">
@@ -31,8 +31,7 @@
 
     <body ng-app="jfApp">
 
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+
 
          <!-- Add fancyBox -->
     <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
@@ -62,27 +61,19 @@
             <center><img src="https://d13yacurqjgara.cloudfront.net/users/12755/screenshots/1037374/hex-loader2.gif" /></center>
         </div>
 
-
-
         <script type="text/javascript">
             $(document).ready(function() {
-
-            $(".fancybox").fancybox();
+              $(".fancybox").fancybox();
             });
         </script>
 
-
         <script src="js/main.js"></script>
+        <script src="js/plugins.js"></script>
         <script src="js/angular/naslovna.js"></script>
 
-        <script async defer src="https://maps.googleapis.com/maps/api/js?signed_in=true&callback=initMap"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?signed_in=true&callback=initMap"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
         <script src="bootstrap/js/bootstrap.js"></script>
-        <script type="text/javascript">
-            //angular.bootstrap(document.getElementById('nov-ost'), ['ucitajNovost']);
-
-        </script>
-
 
     </body>
 </html>

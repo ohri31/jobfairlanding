@@ -1,7 +1,7 @@
-<?php include 'menu.html'; ?>
+<?php include 'menu.php'; ?>
 
 <?php  include 'baner.html'; ?>
-<div class="prazan-prostor"><br><br><br><br></div>
+<div class="prazan-prostor"><br><br></div>
 <?php include 'link_cv_partner.html'; ?>
 <div class="prazan-prostor"><br><br><br><br></div>
 

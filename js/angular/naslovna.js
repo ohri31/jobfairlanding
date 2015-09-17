@@ -1,7 +1,12 @@
 var root      = "http://localhost/jobfair/jobfair/";
+var landing      = "http://localhost/jobfair/landing/";
 
 var jflanding = angular.module('jfApp', ['ngRoute']);
+$(document).ready(function(){ $("a.grouped-elements").fancybox(); });
 
+function reload_naslovna(){
+	window.location = landing;
+}
 
 jflanding.config(function($routeProvider){
 		$routeProvider
@@ -21,7 +26,7 @@ jflanding.config(function($routeProvider){
 					templateUrl: 'partials/postani-partner.php'
 			})
 			.when('/galerije',{
-					templateUrl: 'partials/gallery.php'
+					templateUrl: 'partials/gallery-full.php'
 			})
 			.when('/login',{
 					templateUrl: 'partials/login-full.php'
@@ -47,7 +52,24 @@ jflanding.controller('ucitajNovost', function($scope, $routeParams, $http){
 });
 
 jflanding.controller('naslovnaControler', function($scope, $http){
-	$http.get(root + "jfapi.php?stream=naslovna").success(function(res){
+	$scope.page = 1;
+
+	$http.get(root + "jfapi.php?stream=items").success(function(res){
+		$scope.ukupno = res;
+	});
+
+	$http.get(root + "jfapi.php?stream=naslovna&strana=" + $scope.page).success(function(res){
 		$scope.ns = res;
 	});
+
+	$scope.loadMore = function() {
+    $scope.page++;
+		$http.get(root + "jfapi.php?stream=naslovna&strana=" + $scope.page).success(function(res){
+			$scope.ns = $scope.ns.concat(res);
+		});
+  };
+
+	$scope.nextPageDisabledClass = function() {
+    return $scope.page === $scope.ukupno ? "disabled" : "";
+  };
 });

@@ -234,17 +234,17 @@ body{
 
         .input-login-u, .input-login-u1, .input-login-p{
             width: 400px;
-            height: 28px;
+            
             margin-left: 25px;
             border-radius: 5px;
             border-color: #D9D9D9;
             border-style: solid;
-            text-align: center;
+            text-align: left;
             border-width: 1px;
             margin-bottom: 1px;
             font-size: 15px;
-            color: #D92528;
             font-family: 'Bree Serif';
+            padding:10px;
         }
 
         .input-login-u1{
@@ -273,11 +273,11 @@ body{
         }
 
         .login-btn{
-            font-size: 11px;
+            font-size: 14px;
             border-style: none;
             height: 35px;
+            line-height: 35px;
             background-color: #D92528;
-            padding: 2%;
             padding-left: 4%;
             padding-right: 4%;
             color: white;
@@ -291,18 +291,18 @@ body{
         width:100%;
         padding: 7px;
     }
-    
+
     .login .input-login-u, .login .input-login-p, .input-login-u1
     {
         width:100%;
         margin-left: 0px;
     }
-    
+
     .login-big
     {
         padding:10px;
     }
-    
+
     .sub-login
     {
         width:100%;
@@ -317,8 +317,8 @@ body{
 
     .header {
         background-color: #C91619;
-        padding-top: 3vmin;
-        padding-bottom: 50px;
+        padding-top: 30px;
+        padding-bottom: 20px;
         padding-left: 70px;
         padding-right: -70px;
         color: white;
@@ -338,7 +338,7 @@ body{
         font-weight: 100;
         text-align: justify;
         padding-bottom: 30px;
-    }   
+    }
 
     #slika {
         display: block;
@@ -372,8 +372,9 @@ div.logo a {
     margin: auto;
 /*    max-width: 1200px;*/
     width: 100%;
-    background-color: #363738; 
-}     
+    padding-bottom:20px;
+    background-color: #363738;
+}
 
 .icons ul li{
     display: inline-block;
@@ -419,17 +420,17 @@ div.logo a {
     }
     div.logo a {
         font-size: 0%;
-    }    
+    }
     #footer{
 /*        height: 240px;*/
         font-size: 80%;
     }
-    
+
     .icons {
     width: 200px;
     margin: auto;
 }
-    
+
 }
 /* end of footer*/
 
@@ -449,7 +450,7 @@ div.logo a {
             vertical-align: center;
         }
         .forma{
-            margin-top: 200px;
+            margin-top: 90px;
             margin-left: 140px;
             margin-right: 120px;
             width: 500px;
@@ -482,7 +483,7 @@ div.logo a {
             display: inline-block;
             padding-top: 5%;
 /*            margin-right: 160px;*/
-            padding-bottom: 5%; 
+            padding-bottom: 5%;
         }
         .contact_name_mail{
             width: 400px;
@@ -502,8 +503,8 @@ div.logo a {
             border-color: #D9D9D9;
             border-style: solid;
             border-width: 1px;
-            float: right;   
-            min-height: 200px; 
+            float: right;
+            min-height: 200px;
             max-height: 200px;
         }
         p.name{
@@ -552,28 +553,28 @@ div.logo a {
         margin-left: auto;
         margin-right: auto;
     }
-    
-    .bord_names 
+
+    .bord_names
     {
         float:left;
         width:300px;
         margin: auto;
     }
-    
+
     .all-contacts
     {
         height:300px;
         width:600px;
         margin:auto;
     }
-    
+
     .division
     {
         width:100%;
         margin:auto;
         float:none;
     }
-   
+
 }
 
 @media(max-width:650px)
@@ -582,8 +583,8 @@ div.logo a {
     {
         width:300px;
     }
-    
-   .bord_names 
+
+   .bord_names
     {
         float:left;
         width:300px;
@@ -597,18 +598,18 @@ div.logo a {
     {
         width:100%;
     }
-    
+
     #contact-message
     {
         width:100%;
     }
-    
+
     .forma
     {
         width:100%;
         padding:10px;
     }
-    
+
     .form-box, .form-text
     {
         width:100%;
@@ -621,13 +622,13 @@ div.logo a {
     {
         width:200px;
     }
-    
-   .bord_names 
+
+   .bord_names
     {
         float:left;
         width:200px;
         margin: auto;
-    }   
+    }
 }
 
 /*end of contactform*/
@@ -647,14 +648,14 @@ div.logo a {
     #menu
     {
         width:100%;
-        
+
     }
 }
 
 .top{
     bottom: 2em;
     display: none;
-    font-family:'Bree Serif';    
+    font-family:'Bree Serif';
     opacity:0.7;
     padding: 1.2em;
     position: fixed;
@@ -667,7 +668,7 @@ div.logo a {
 .top:hover {
     opacity: 1;
     transition: 1s;
-    font-family:'Bree Serif';    
+    font-family:'Bree Serif';
     border: 3px solid #696969;
     background-color: #505050;
     border-radius: 5px;
@@ -704,13 +705,13 @@ div.logo a {
 }
 
 #about_company
-{          
+{
             width: 660px;
             height: 700px;
             background-color: #ffffff;
             margin-left: 730px;
             margin-top: -520px;
-            
+
 }
 
 #contact_company
@@ -728,7 +729,7 @@ div.logo a {
             background-color: #ffffff;
             margin-top: 20px;
             margin-left: 730px;
-            
+
 }
 /* end of kompanije prikaz */
 
@@ -743,7 +744,7 @@ div.logo a {
     width:100%;
     background-color: #D92528;
 /*    position: absolute;*/
-    
+
      -moz-transition: all 1s;
    -o-transition: all 1s;
    -webkit-transition: all 1s;
@@ -766,7 +767,7 @@ div.logo a {
     height:100%;
     float:right;
     overflow: hidden;
-    
+
     -moz-transition: all 2s;
     -o-transition: all 2s;
     -webkit-transition: all 2s;
@@ -783,14 +784,10 @@ div.logo a {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 42px;
-<<<<<<< HEAD
     margin-bottom: 20px;
     margin-top: 15px;
 }
-=======
-    margin-bottom: 50px;
-}   
->>>>>>> 4abf417c5b506d9a91ce95d1bf8d1ebcf2c710e0
+
 
 .header-title-small
 {
@@ -824,7 +821,7 @@ div.logo a {
         height:0;
         width:0;
     }
-    
+
     .header-text
     {
         width:55%;
@@ -848,12 +845,12 @@ div.logo a {
         height:0;
         width:0;
     }
-    
+
     .header-text
     {
         margin-top:20px;
     }
-    
+
     .header-title
     {
         font-size:35px;
@@ -866,30 +863,30 @@ div.logo a {
     {
         font-size:27px;
     }
-    
+
     .header-title-small
     {
         font-size: 17px;
     }
-    
+
     .header-text
     {
         width:80%;
         margin-left:25px;
         margin-top:10px;
     }
-    
+
     .header-row
     {
         height:500px;
         margin-top:75px;
     }
-    
+
     .navbar-brand > img
     {
         width:150px;
     }
-    
+
     .navbar-toggle
     {
         padding: 10px 15px;
@@ -904,20 +901,20 @@ div.logo a {
         font-size: 14px;
         width:80%;
     }
-    
+
     .header-text
     {
         width:80%;
         margin-left:24px;
         margin-top:10px;
     }
-    
+
     .header-row
     {
         height:460px;
         margin-top:75px;
     }
-    
+
 }
 
 /*end of memi baner*/
@@ -975,19 +972,19 @@ div.logo a {
         text-align:left;
         margin-right:0;
     }
-    
+
     .cv_partner
     {
         width: 340px;
     }
-    
+
     .tekst-ikonice
     {
         width:170px;
         display:inline;
         margin-left:15px;
     }
-    
+
     .ikonica-img
     {
         margin-bottom: 15px;
@@ -995,7 +992,7 @@ div.logo a {
     }
 }
 
-    
+
  @media(max-width : 350px)
 {
     .ikonica-img
@@ -1003,18 +1000,18 @@ div.logo a {
         margin-bottom: 15px;
         width:80px;
     }
-    
+
     .tekst-ikonice
     {
         margin-left:5px;
         font-size:12px;
     }
-    
+
     .cv_partner
     {
         width: 260px;
     }
-   
+
 }
 
 /*???*/
@@ -1046,28 +1043,39 @@ div.logo a {
 {
     width:100%;
     height:100%;
-    
+
      -moz-transition: all 1s;
    -o-transition: all 1s;
    -webkit-transition: all 1s;
    transition: all 1s;
-     cursor: pointer; 
+     cursor: pointer;
     cursor: hand;
 }
 
 .otvori-galeriju
 {
     position: absolute;
+    text-align: center;
     font-size: 50px;
-    opacity:0.5;
+    vertical-align: middle;
+    
     padding:30px;
-    color:white;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background:#d5d5d5;
+    opacity:0.5;
+    color:#c0392b;
     -moz-transition: all 1s;
     -o-transition: all 1s;
     -webkit-transition: all 1s;
     transition: all 1s;
-    
-   
+    opacity: 0;
+}
+.gallery-news:hover > .otvori-galeriju{
+    cursor: pointer;
+    opacity: 0.4;
 }
 
 .otvori-galeriju-under-line
@@ -1089,7 +1097,7 @@ div.logo a {
     {
         font-size:45px;
     }
-    
+
     .otvori-galeriju-under-line
     {
         height:5px;
@@ -1103,7 +1111,7 @@ div.logo a {
     {
         font-size:35px;
     }
-    
+
     .otvori-galeriju-under-line
     {
         height:4px;
@@ -1117,7 +1125,7 @@ div.logo a {
     {
         font-size:25px;
     }
-    
+
     .otvori-galeriju-under-line
     {
         height:3px;
@@ -1157,9 +1165,13 @@ div.logo a {
     margin: auto;
 }
 
+.novost{
+    position: relative;
+}
+
 .border-novost{
-    width:102%; 
-    margin-left:-1%; 
+    width:102%;
+    margin-left:-1%;
 }
 
 .img-novost{
@@ -1234,23 +1246,23 @@ div.logo a {
         margin-top:40px;
         width:200px;
     }
-    
+
     .img-block
     {
         width:200px;
         height:100px;
     }
-    
+
     .novost-tekst
     {
         font-size:18px;
     }
-    
+
     .novost-naslov
     {
         font-size:25px;
     }
-    
+
    .btn.btn-default
     {
         font-size: 18px;
@@ -1268,19 +1280,19 @@ div.logo a {
         margin-top:80px;
         margin-bottom: 20px;
     }
-    
+
     .btn.btn-default
     {
         float:right;
         margin-top:-80px;
 /*        margin-right:100px;*/
     }
-    
+
     .border-novost
     {
         display: none;
     }
-    
+
 }
 
 @media(max-width:840px)
@@ -1289,7 +1301,7 @@ div.logo a {
     {
         display: none;
     }
-    
+
     .novost-tekst
     {
         width:85%;
@@ -1303,12 +1315,12 @@ div.logo a {
     {
         font-size:14px;
     }
-    
+
     .novost-naslov
     {
         font-size:20px;
     }
-    
+
     .btn.btn-default
     {
         margin-top:-50px;
@@ -1332,7 +1344,7 @@ div.logo a {
 
 .naslov {
 	color:white;
-	background-color:#C91619; 
+	background-color:#C91619;
 	padding-left: 10%;
 	padding-right: 5%;
 	height: 300px;
@@ -1399,11 +1411,11 @@ div.logo a {
     width: 200px;
 }
 
-.news-img-top{ 
+.news-img-top{
     width: 100%;
 /*    height: 400px;*/
     overflow: hidden;
-    
+
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -1411,7 +1423,7 @@ div.logo a {
    -o-transition: all 1s;
    -webkit-transition: all 1s;
    transition: all 1s;
-}    
+}
 
 /*end of spica novosti*/
 
@@ -1419,7 +1431,7 @@ div.logo a {
 
 
 
-#gallery-pic img 
+#gallery-pic img
 {
     width:100%;
 /*    padding:2px;*/
@@ -1427,7 +1439,7 @@ div.logo a {
    -o-transition: all 1s;
    -webkit-transition: all 1s;
    transition: all 1s;
-    
+
 }
 
 .gallery-all
@@ -1440,7 +1452,13 @@ div.logo a {
 .gallery-part
 {
     float:left;
-    width:25%;
+    width:260px;
+    margin:10px;
+    position: relative;
+}
+
+.gallery-part:hover{
+  cursor:pointer;
 }
 
 .gallery-text
@@ -1451,19 +1469,25 @@ div.logo a {
     font-size: 22px;
     font-weight: 600;
     padding: 20px 20px;
+    word-break: break-all;
+    position:relative;
 }
 
 .overlay0,.overlay1,.overlay2,.overlay3,.overlay4,.overlay5,.overlay6
 {
     opacity: 0;
-    width:25%;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
     position: absolute;
     -moz-transition: all 1s;
    -o-transition: all 1s;
    -webkit-transition: all 1s;
     transition: all 1s;
+
 }
- 
+
 .gallery-text-line
 {
     height:2px;
@@ -1471,16 +1495,17 @@ div.logo a {
     background-color: #363738;
 }
 
-@media(max-width:1100px)
+@media(max-width:1200px)
 {
   .gallery-part
     {
-        width:33.333%;
+        width:21%;
+        margin:1%;
     }
-    
+
     .overlay0,.overlay1,.overlay2,.overlay3,.overlay4,.overlay5,.overlay6
     {
-       width:33.333%;
+       width:21%;
     }
 }
 
@@ -1488,12 +1513,13 @@ div.logo a {
 {
     .gallery-part
     {
-        width:50%;
+        width:46%;
+        margin:1%;
     }
-    
+
     .overlay0,.overlay1,.overlay2,.overlay3,.overlay4,.overlay5,.overlay6
     {
-       width:50%;
+       width:46%;
     }
 }
 
@@ -1502,12 +1528,13 @@ div.logo a {
 {
     .gallery-part
     {
-        width:100%;
+        width:98%;
+        margin:1%;
     }
-    
+
     .overlay0,.overlay1,.overlay2,.overlay3,.overlay4,.overlay5,.overlay6
     {
-       width:100%;
+       width:98%;
     }
 }
 

@@ -13,16 +13,16 @@
 
 
     <div class='header'>
-		Gallery	
+		Galerija
 	</div>
-	<div class="gallery-all" style="padding-left:220px;">
-         <?php 
+	<div class="gallery-all" >
+         <?php
             $dirname = "../img/gallery";
             $files = scandir($dirname);
             $out = array_shift($files);
             $out = array_shift($files);
             $imenagalerija= array($files[0] => "Day 1",$files[1] => "neki tekst",$files[2] => "neki malo duzi tekst",$files[3] => "nei malo duziiiii tekstinjovic maliii ali duzi tekst",$files[4] => "zzZZzzzz pcelica",$files[5] => "zomg");
-            
+
         ?>
        <?php $i = 0; foreach($files as $directoryname):?>
         <div class="gallery-part">
@@ -41,5 +41,5 @@
             &nbsp;&nbsp;
         </div>
     <?php $i = $i+1; endforeach;?>
-        
+
 	</div>

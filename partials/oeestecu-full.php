@@ -1,6 +1,6 @@
 
 	<?php
-		include 'menu.html';
+		include 'menu.php';
 		include 'oeestecu.html';
 		include 'footer.html';
 	?>

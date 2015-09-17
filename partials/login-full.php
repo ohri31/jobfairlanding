@@ -1,7 +1,5 @@
-<div id="screen">
 <?php
-	include 'menu.html';
+	include 'menu.php';
 	include 'login.html';
 	include 'footer.html';
 ?>
-</div>

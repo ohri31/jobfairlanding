@@ -8,7 +8,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#/"><img class="logo-img" src="img/logo/jf_logo.png"/></a>
+            <a class="navbar-brand" href="javascript:reload_naslovna();"><img class="logo-img" src="img/logo/jf_logo.png"/></a>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
@@ -17,8 +17,8 @@
 
               <li><a href="#oeestecu">O nama</a></li>
               <li><a href="#ojobfairu">O projektu</a></li>
-              <li><a href="#ucesnici" >Učesnici</a></li>
-              <li><a href="#postani-partner" >Postani partner</a></li>
+             <!-- <li><a href="#ucesnici" >Učesnici</a></li>
+              <li><a href="#postani-partner" >Postani partner</a></li> -->
               <li><a href="#galerije">Galerija</a></li>
               <li><a href="#login">Login</a></li>
               <li><a href="#kontakt">Kontakt</a></li>
